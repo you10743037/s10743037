@@ -26,11 +26,23 @@
 　輸入你想要寫的內容...
 </textarea>
  <select name="YourLocation">
-　<option value="Taipei">台北</option>
-　<option value="Taoyuan">桃園</option>
-　<option value="Hsinchu">新竹</option>
-　<option value="Miaoli">苗栗</option>
+　<option value="Taipei">科管</option>
+　<option value="Taoyuan">醫管</option>
+　<option value="Hsinchu">行管</option>
+　<option value="Miaoli">放射</option>
   </select><br><br>
+  <form>
+請選擇居住區域<br>
+<input type="radio" name="location" value="Taipei"> 台北<br>
+<input type="radio" name="location" value="Taoyuan"> 桃園<br>
+...
+</form>
+  <form>
+請勾選你的興趣<br>
+<input type="checkbox" value="Travel" name="Interest"> 旅遊<br>
+<input type="checkbox" value="Movie" name="Interest"> 電影<br>
+<input type="checkbox" value="Food" name="Interest"> 美食
+</form>
   <input type="submit"value="送出表單">
 </form>
 </form>
